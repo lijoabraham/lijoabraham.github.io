@@ -14,6 +14,11 @@ or
 - Enable <code>CHOKIDHAR_USEPOLLING</code> variable in docker-compose.yaml.
 - Run the command <code> docker-compose up --build </code> which will run the app in http://localhost:3000
 
+## Deployment
+
+- For deployment run <code>npm run build</code>
+- Now run <code>npm run deploy</code>
+
 ## Key Points
 
 Consists of all the features the original repo has with some custom made views based on my requirements
