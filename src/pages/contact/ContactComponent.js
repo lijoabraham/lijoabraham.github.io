@@ -26,8 +26,13 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "100%",
+                    transform: "scale(0.9)",
+                  }}
+                  src={require(`../../assests/images/lijo_icon.jpg`)}
+                  alt="lijo"
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -119,14 +124,6 @@ class Contact extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
-                <div className="address-btn-div">
-                  <Button
-                    text="Visit on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
-                </div>
               </div>
             </div>
           </Fade>

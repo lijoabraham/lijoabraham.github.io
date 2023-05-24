@@ -127,6 +127,11 @@
   margin-top: 0;
 }
 
+.contact-heading-img-div > img {
+    transform: scale(0.8);
+    border-radius: 30%;
+}
+
 @media (max-width: 1380px) {
   .contact-heading-text {
     font-size: 50px;

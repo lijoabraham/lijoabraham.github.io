@@ -2,7 +2,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .greet-main {
   width: 90%;
@@ -53,6 +53,19 @@
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  height: auto;
+  border-radius: 150px;
+  box-shadow: 25px 25px 25px 3px grey;
+  margin-left: 20px;
+}
+
+.greeting-image-div > img {
+    transform: scale(0.8);
+    border-radius: 30%;
 }
 
 /* Media Query */

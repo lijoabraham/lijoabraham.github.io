@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Lijo Abraham Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://lijoabraham.github.io/#/",
   },
 };
 
