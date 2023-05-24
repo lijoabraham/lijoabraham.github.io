@@ -1,7 +1,7 @@
 # 🚀A simple and easy to build <i><b>Custom Portfolio</b></i> 👨🏻‍💻 inspired by Masterportfolio 
 
 <p align="center">
-  <img src="./images/DisplayImage.png" />
+  <img src="./images/displayimage.png" />
 </p>
 
 ## Steps to run
@@ -9,6 +9,10 @@
 - <code>npm install</code> in the root directory
 - <code>npm start</code> which will run the app on http://localhost:3000
 
+or
+
+- Enable <code>CHOKIDHAR_USEPOLLING</code> variable in docker-compose.yaml.
+- Run the command <code> docker-compose up --build </code> which will run the app in http://localhost:3000
 
 ## Key Points
 
