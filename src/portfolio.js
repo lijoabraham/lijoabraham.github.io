@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "As a passionate software engineer dedicated to crafting elegant and efficient solutions that empower users and drive positive change in the digital world.",
   resumeLink:
-    "https://drive.google.com/file/d/1KlZ0_GsSskNxUothqJFFze_iTBOCREMV/view?usp=share_link",
+    "https://drive.google.com/file/d/1KlZ0_GsSskNxUothqJFFze_iTBOCREMV/view?usp=sharing",
   portfolio_repository: "https://github.com/lijoabraham/my-portfolio",
   githubProfile: "https://github.com/lijoabraham",
 };
@@ -475,7 +475,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "",
     description:
       "If you need assistance with Data Engineering, Backend development, or Cloud Development, I'm here to help. Don't hesitate to reach out to me for any questions or support you may require in these areas.",
   },
